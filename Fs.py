@@ -3,8 +3,7 @@
 
 """
 
-Copyright © 2021 - 2023 | Latip176
-Semua codingan dibuat oleh Latip176.
+FACE SPAMMER TOOLS
 
 """
 
