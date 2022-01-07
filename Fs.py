@@ -53,7 +53,6 @@ FACE SPAMMER NEW TOOLS
 GUNAKAN DENGAN BIJAK
 	Version: {BM}PREMIUM{P}
   enjoyyyyy
-		"""
 		return banner
 	def cpdetect(self):
 		__data=input("[?] Masukan nama file: ")
